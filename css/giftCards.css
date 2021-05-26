@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Roboto:wght@300;500&display=swap');
+html {
+    box-sizing:border-box;
+}
+*, *::before, *::after {
+    box-sizing:inherit;
+}
+#header{
+    overflow: hidden;
+}
+body{
+    margin: 0;
+    background-color: #011b29;
+}
+
+/***** PAGE CONTAINER *****/
+.page-container {
+    max-width: 1200px;
+    align-content: center;
+    margin: 0 auto;
+
+}
+#header{
+    max-width:100%;
+}
+
+#main-menu {
+    float: right;
+}
+
+.hidden {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+}
+
+.menu li {
+    display:inline-block;
+    list-style-type: none;
+    margin-right: 2.12em;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.menu a,
+.menu a:link{
+    text-decoration: none;
+    color: #fcbf49;
+    /*dont know why this is not working*/
+    transition: all 2s;
+    
+}
+/*take white space off hover*/
+.menu a:hover{
+    color: white;
+    
+}
+.row{
+    display: flex;
+}
+
+.col{
+    display: flex;
+    flex:50%;
+    margin:50px;
+    color: #fff;
+    text-align: center;
+}
+.col h2{
+    padding-left: 70px;
+}
+#card1, #card2, #card3, #card4{
+    width:400px;
+    height: 190px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: #fcbf49;
+    margin-left:70px;
+    box-shadow: 2px 2px 5px 6px grey;
+}
+.submit{
+    margin: 50px 0 0 10px;
+    font-size: 20px;
+    border: 3px solid #fff;
+    background-color:#011b29 ;
+    color: #fff;
+    text-align: center;
+    padding: 10px 30px;
+    margin-left:70px;
+}
+span{
+    display: block;
+    color: #d62828;
+    font-size: 25px;
+    padding-top: 75px;
+    
+}
+p{
+    color: #fff;
+    font-size: 36px;
+}
+
+/*****TOP SKULLS AND LOGO*****/
+.logo-container{
+    display: block;
+    width: 45%;
+    margin: 0 0 0 0;
+
+}
+
+.logo-container{
+    display: block;
+    width: 45%;
+    margin: 0 0 0 0;
+
+}
+
+#logo-1{
+    position: absolute;
+    width: 220px;
+    padding-top: 0px;
+    padding-left: 20px;
+    transform: rotate(-20deg);
+}
+#brushstroke-1{
+    position: absolute;
+    top:70px;
+    padding-left: 80px;
+}
+.site-logo{
+    position: absolute;
+    width: 10em;
+    margin: 0 0 0 0;
+    top: 1.8em;
+    left: 6.7em;
+    font-family: 'Henny Penny', cursive;
+    color: white;
+    font-size: 3.2em;
+}
+.site-logo a,
+.site-logo a:link{
+    text-decoration: none;
+    color: white;
+}
+.tag-line{
+    position: absolute;
+    margin: 0 0 0 0;
+    font-family: 'Henny Penny', cursive;
+    color: white;
+    font-size: 1.5em;
+    top:6.6em;
+    left:40%;
+}
+
+#logo-2{
+    position: absolute;
+    width: 200px;
+    top: 17em;
+    transform:rotate(20deg); 
+    
+}
+.main_heading{
+    color: #fff;
+    font-family: 'Henny Penny', cursive;
+    font-size: 48px;
+    padding-left: 220px;
+    padding-top: 80px;
+}
+#p1{
+    font-size: 36px;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+#div_1{
+    height: 300px;
+}
+
+/*-----gg----*/
+.container{
+max-width: 78.5em;
+margin-left: auto;
+margin-right: auto;
+margin-left: auto;
+margin-right: auto;
+width: 78.5em;
+}
+.gift-cards {
+display: flex;
+flex-direction: row;
+margin: 100px auto;
+justify-content: center;
+}
+.gift-card:first-of-type {
+padding-left: 0
+}
+.gift-card__title {
+color: #fff;
+text-transform: uppercase;
+font-size: 27px;
+max-width: 360px;
+margin: auto;
+margin-top: 0;
+text-align: center;
+}
+
+
+/*****FOOTER*****/
+
+.footer {
+    display:flex;
+    justify-content: space-between;
+    padding-top:2em;
+    padding-left: 10em;
+    padding-right:10em;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color:#075200;
+    margin-top:3em;;
+    height:150px;
+}
+
+.footer a,
+.footer a :link{
+    text-decoration: none;
+    color: #fcbf49;
+    /*dont know why this is not working*/
+    transition: all 2s;   
+}
+.footer a :hover{
+    background-color: white;
+    
+}
+
+    
+

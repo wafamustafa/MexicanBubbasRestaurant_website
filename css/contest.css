@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Henny+Penny');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* Fonts */
+#main h2 {
+  font-family: "Henny Penny";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 2;
+  color: #ffbf49;
+}
+#main h3 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #d62828;
+}
+#main p {
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 1;
+  font-size: 20px;
+  color: #fff;
+}
+#main a {
+  color: #f77f00;
+}
+#main a:hover {
+  color: #fcbf49;
+  text-decoration: none;
+}
+
+/* General spacing and elements locations */
+#main {
+  padding: 0 2%;
+  margin-top: 12em;
+  margin-left: 23em;
+  text-align: center;
+}
+#giftcards {
+    position: absolute;
+    left:40px;
+    top:620px;
+    width:320px;
+    height: 220px;
+    border: 1px solid #007642;
+    border-radius: 10px;
+    background-color:#751e28;
+    margin-left:70px;
+    box-shadow: 2px 2px 5px 6px grey;
+    transform: rotate(-15deg);
+}
+#giftcards a{
+    text-decoration: none;
+}
+
+#btnSpin {
+  background-color: #d62828;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 8px;
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+}
+#btnSpin:hover {
+  background-color: #ffbf49;
+}

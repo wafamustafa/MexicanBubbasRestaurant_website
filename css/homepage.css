@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Roboto:wght@300;500&display=swap');
+/*
+font-family: 'Henny Penny', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+/**********HOMEPAGE**********/
+/*****RIGHTSIDE******/
+.aside-right{
+    display: inline-block;
+    width: 1200px;
+    align-content: right;  
+}
+
+#dish-1{
+    position: relative;
+    left: 40%;
+    margin-top: 8em;
+    width:400px;
+    transform: rotate(90deg);     
+}
+
+#dish-2{
+    max-width:100%;
+    position: relative;
+    float:right;
+    width: 400px;
+}
+
+#brushstroke-2 {
+    position: relative;
+    float:right;
+    width: 715px;
+    height: 251px;
+}
+
+button {
+    position: relative;
+    right:17%;
+    background-color: #011b29; 
+    font-size: 24px; 
+    line-height: 24px; 
+    padding-top: 1.5em;
+    padding-bottom:1.5em;
+    padding-right:4em;
+    padding-left:4em; 
+    border-radius: 10px; 
+    border-color: white;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none; 
+    font-style: normal; 
+}
+button a,
+button a:link{
+    color: white;
+    text-decoration-line: none;
+    transition: all 2s;
+}
+
+button a:hover{
+    color: red;
+}
+
+/*****LEFTSIDE*****/
+.aside-left{
+    display: inline-block;
+    width:1200px;
+    
+}
+.aside-left div{
+    display: flex;
+}
+#brushstroke-2{
+    display: relative;
+    margin-left: auto;
+}
+.aside-left h3{
+    position: absolute;
+    left: 60%;
+    font-family: 'Henny Penny', cursive;
+    color: white;
+    font-size: 4em;
+    
+}
+.our-story{
+    display: flex;
+    justify-content: flex-end;
+}
+#story-blurb{
+    width: 500px;
+    height:350px;
+    border-radius:20px;
+    padding: 30px;
+    background-color:#fcbf49;
+    transition: all 3s;
+    transform: rotate(-10deg);
+}
+#story-blurb:hover{
+    background-color:#f77f00;
+
+}
+.our-story p{
+    font-family:'Roboto', sans-serif;
+    color:white;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+#logo-3{
+    position: relative;
+    width: 250px;
+    transform: rotate(20deg);
+    right:7%;
+}
+#dish-3{
+    position: absolute;
+    top: 120%;   
+}
+
+
+    

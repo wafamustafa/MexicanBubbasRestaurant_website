@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Mexcian Bubbas</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/eventbooking.css">
+        <script src="js/eventBooking.js"></script>
+    </head>
+    <body>
+        
+        <!--MAIN-->
+       <div class="page-container">     
+        
+            <header id="header">
+                <div id="main-menu">
+                    <nav>
+                        <h1 class="hidden"> Main Navigation</h1>
+                        <ul class="menu">
+                            <!--add other page links here-->
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="specials.html">Specials</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contest.html">Contest</a></li>
+                            <li><a href="EventBooking.html">Events &amp; Booking</a></li>
+                        </ul>  
+                    </nav>
+                </div>
+                <div>
+                    <img src="images/brushstroke1.png" id="brushstroke-1" alt="red loose brush stroke">
+                    <img src="images/logos1.png" id="logo-1" alt="yellow and orange flower sugarskull with diamond eyes">
+                    <h2 class="site-logo"><a href="homepage.html">Mexican Bubbas</a></h2>
+                    <h2 class="tag-line">Chase the Flavor</h2>
+                    <img src="images/logo2.png" id="logo-2" alt="orange flower sugar skull with rose eyes "> 
+                </div>
+            </header>
+           <main>
+            <div id="div_1">
+            </div>
+            
+            
+            <!--SECTION 1-->
+            <section class="section">
+                <h2>Events &amp; Private Dining</h2>
+                <p>Mexican Bubba's offers a full service banquet facility to accommodate all of your corporate and social events. 
+                </p>
+                <ul>
+                    <li>Weddings | Baby Showers</li>
+                    <li>Holiday Parties | Christenings</li>
+                    <li>Award Banquets | Communions</li>
+                    <li>Graduations | Confirmations</li>
+                    <li>Anniversaries | Retirements Parties</li>
+                    <li>and much more!</li>
+                </ul>
+                <h2>Hosting Your Own Event?</h2>
+                <p>We have a beautiful catering menu available with options to suit all occassions. Why not let Mexican Bubba's do the cooking for you? All you have to do is pick it up.</p>
+               
+                   <form method="get" action="#">
+                       <button type="button" id="btn"><a href= "menu.html">View our Catering Menu</a></button>
+                   </form>
+            </section>
+            
+            <!--SECTION 2-->
+            <section class="section_2">
+                <h2>Request Your Event</h2>
+                
+                <!--FORM TO BOOK AN EVENT-->
+                <form action="#" method="post" id="form" name="booking_form">
+                    <div class="field">
+                        <label for="txt_1" class="lbl">First Name:</label>
+                        <input type="text" id="txt_1" name="f_name" >
+                    </div>
+                    <div class="field">
+                        <label for="txt_2" class="lbl">Last Name:</label>
+                        <input type="text" id="txt_2" name="l_name" >
+                    </div>
+                    <div class="field">
+                        <label for="email" class="lbl">Email Address:</label>
+                        <input type="email" id="email" >
+                    </div>
+                    <div class="field">
+                        <label for="phone" class="lbl">Phone:</label>
+                        <input type="tel" id="phone" pattern="[1-9]{3}-[0-9]{3}-[0-9]{4}" >
+                    </div>
+                    <div class="field">
+                        <label for="company" class="lbl1">Company:</label>
+                        <input type="text" id="company">   
+                    </div>
+                    <div class="field-1">
+                        <label for="date" class="lbl">Event Date:</label>
+                        <input type="date" id="date" name="event date"   >
+                    </div>
+                    <div class="field-2">
+                        <label for="time" class="lbl"><span>Event Time:</span></label>
+                        <select id="time" name="Time" >
+                            <option value="" selected="selected">- Select One -</option>
+                            <option value="1:00 AM">1:00 AM</option>
+                            <option value="2:00 AM">2:00 AM</option>
+                            <option value="3:00 AM">3:00 AM</option>
+                            <option value="4:00 AM">4:00 AM</option>
+                            <option value="5:00 AM">5:00 AM</option>
+                            <option value="6:00 AM">6:00 AM</option>
+                            <option value="7:00 AM">7:00 AM</option>
+                            <option value="8:00 AM">8:00 AM</option>
+                            <option value="9:00 AM">9:00 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>    
+                            <option value="11:00 AM">11:00 AM</option>    
+                            <option value="12:00 PM">12:00 PM</option>  
+                            <option value="1:00 PM">1:00 PM</option>    
+                            <option value="2:00 PM">2:00 PM</option>  
+                            <option value="3:00 PM">3:00 PM</option>
+                            <option value="4:00 PM">4:00 PM</option>
+                            <option value="5:00 PM">5:00 PM</option>    
+                            <option value="6:00 PM">6:00 PM</option>
+                            <option value="7:00 PM">7:00 PM</option>
+                            <option value="8:00 PM">8:00 PM</option>
+                            <option value="9:00 PM">9:00 PM</option>
+                            <option value="10:00 PM">10:00 PM</option>
+                            <option value="11:00 PM">11:00 PM</option>
+                            <option value="12:00 AM">12:00 AM</option>
+                        </select>
+                    </div>
+                    <div class="field-3">
+                        <label for="guest" class="lbl">Guests:</label>
+                        <input type="text" id="guest" placeholder = "0" maxlength="4" >
+                    </div>
+                    <div class="field">
+                        <label for="occassion" class="lbl">Occasion:</label>
+                        <input type="text" id="occassion" >
+                    </div>
+                    <div class="field-4">
+                        <label for="comment" class="lbl_1">Tell us about the event and your requirements</label><br> 
+                        <textarea id="comment" name="comment" ></textarea>
+                    </div>
+                    <div class="field-5">
+                        <input type="submit" id="submit" value="Submit">
+                    </div>
+                </form>
+                
+                <!--HIDDEN MESSAGE-->
+                <div id="hiddenMsg">
+                    <div class="thankYou">Thank You <span id="clientName"></span> for your booking on <span id="bookingDate"></span>.</div>
+                    <div class="thankYou">Your Booking Id is <span id="bookingId"></span> </div>
+                </div>
+            
+            </section>
+            
+            
+            <!--SECTION 3-->
+            <section>
+                <div id="pastEvent">
+                    <h3>Click here to<span id="nextline">
+                    see past events</span></h3>
+                </div>
+                <div id="flex-container">
+                    
+                    <div class="col-25">
+                        <div class="part_1">
+                            <img src="images/pexels-askar-abayev-5638675.jpg" alt="people taling and having lunch"  class="image">
+                            <p>Bob's Birthday Party</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-25">
+                        <div class="part_1">
+                            <img src="images/pexels-askar-abayev-5638730.jpg" alt="food items" class="image">
+                            <p>Susan's Wedding Party</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-25">
+                        <div class="part_1">
+                            <img src="images/pexels-any-lane-5728169.jpg"  alt="people having candle night dinner"  class="image">
+                            <p>Christmas Party</p>
+                        </div>
+                    </div>
+            
+                    <div class="col-25">
+                        <div class="part_1">
+                            <img src="images/pexels-lee-hnetinka-1679825.jpg" alt="people doing cheers"  class="image">
+                            <p>Holiday Party</p>
+                        </div>
+                    </div> 
+                    
+                    
+                    <div class="col-25">
+                        <div class="part_1">
+                            <img src="images/pexels-rodnae-productions-5738245.jpg" alt="people laughing at lunch table"  class="image">
+                            <p>Baby Shower Party</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-25">
+                        <div class="part_1">
+                            <img src="images/pexels-askar-abayev-5638751.jpg" alt="people enjoying dinner"  class="image">
+                            <p>Anniversary Party</p>
+                        </div>
+                    </div>
+                
+                </div>
+            
+            </section>
+           </main>
+           
+           <!--FOOTER-->
+           <footer class="footer">
+               <h4 class="hidden">Footer navigation</h4>
+               <a href="locations.html">Location</a>
+               <a href="Careers.html">Careers</a>
+               <a href="contactus.html">Contact us</a>
+               <a href="sitemap.html">Site Map</a>
+           </footer>
+        </div>
+    </body>
+</html>

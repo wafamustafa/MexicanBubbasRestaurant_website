@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Roboto:wght@300;500&display=swap');
+/*
+font-family: 'Henny Penny', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+/***** ENTIRE PAGE *****/
+html {
+    box-sizing:border-box;
+}
+*, *::before, *::after {
+    box-sizing:inherit;
+}
+
+/**** BODY *****/
+body{
+    margin: 0;
+    background-color: #011b29;
+}
+
+/***** PAGE CONTAINER *****/
+.page-container {
+    max-width: 1200px;
+    align-content: center;
+    margin: 0 auto;
+}
+
+/***** MAIN NAVIGATION *****/
+#header{
+    max-width:100%;
+}
+#main-menu {
+    float: right;
+}
+
+.hidden {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+}
+.menu li {
+    display:inline-block;
+    list-style-type: none;
+    margin-right: 2.12em;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.menu a,
+.menu a:link{
+    text-decoration: none;
+    color: #fcbf49;
+    transition: all 2s;
+}
+/*take white space off hover*/
+.menu a:hover{
+    color: white;
+}
+/*****TOP SKULLS AND LOGO*****/
+.logo-container{
+    display: block;
+    width: 45%;
+    margin: 0 0 0 0;
+
+}
+
+.logo-container{
+    display: block;
+    width: 45%;
+    margin: 0 0 0 0;
+}
+
+#logo-1{
+    position: absolute;
+    width: 220px;
+    padding-top: 0px;
+    padding-left: 20px;
+    transform: rotate(-20deg);
+}
+#brushstroke-1{
+    position: absolute;
+    top:70px;
+    padding-left: 80px;
+}
+.site-logo{
+    position: absolute;
+    width: 10em;
+    margin: 0 0 0 0;
+    top: 1.8em;
+    left: 6.7em;
+    font-family: 'Henny Penny', cursive;
+    color: white;
+    font-size: 3.2em;
+}
+.site-logo a,
+.site-logo a:link{
+    text-decoration: none;
+    color: white;
+}
+.tag-line{
+    position: absolute;
+    margin: 0 0 0 0;
+    font-family: 'Henny Penny', cursive;
+    color: white;
+    font-size: 1.5em;
+    top:6.6em;
+    left:40%;
+}
+
+#logo-2{
+    position: absolute;
+    width: 200px;
+    top: 17em;
+    transform:rotate(20deg);   
+}
+
+/*****FOOTER*****/
+
+.footer {
+    display:flex;
+    justify-content: space-between;
+    padding-top:2em;
+    padding-left: 10em;
+    padding-right:10em;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color:#075200;
+    margin-top:3em;;
+    height:150px;
+}
+
+.footer a,
+.footer a :link{
+    text-decoration: none;
+    color: #fcbf49;
+    /*dont know why this is not working*/
+    transition: all 2s;   
+}
+.footer a :hover{
+    background-color: white;
+    
+}
+
+/****MAIN****/
+#div_1{
+ height: 950px;
+}
+ul{
+    list-style: none;
+    padding-left:0px;
+}
+h2{
+    font-family: 'Henny Penny', cursive;;
+    font-size: 48px;
+    color: #fcbf49;
+}
+.lbl:after {
+    content:" *";
+    color: red;
+}
+#btn{
+   font-family: 'Roboto', sans-serif;
+   border: 2px solid #00283D;
+   font-style: inherit;
+   font-size: 22px;
+   letter-spacing: 0.02rem;
+   padding: 17px 38px;
+   background-color: #fcbf49;
+   text-transform: uppercase;
+}
+
+/****SECTION 1 STYLING*****/
+.section{
+    background-color: #fcbf49;
+    position: absolute;
+    width:800px;
+    left:300px;
+    top:304px;
+    right:200px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: 20px 40px ;
+    color: #011b29;
+    transition: all 2s ease;
+}
+a{
+    text-decoration: none;
+    color:#00283D; 
+}
+
+/*****SECTION 2 STYLING****/
+.section h2{
+    color: #d62829;
+}
+.section_2{
+    border: 3px solid #fff;
+    color: #fcbf49;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    padding: 40px 80px ;
+   margin:40px 80px ;
+}
+
+/*****FORM STYLING*****/
+
+.field{
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+#txt_1, #txt_2, #email, #phone, #company, #occassion {
+    width:60%;
+    margin: 8px;
+    vertical-align: middle;
+    text-align: start;
+    padding: 7px;
+    border: 1px solid #00283D;
+}
+label{
+    display: inline-block;
+    text-align: left;
+    width:25%;
+    padding-left:10px;
+}
+.field-1{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    clear:left;
+}
+.field-2{
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+.field-3{
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+.field-4{
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+}
+#comment{
+    width:98%;
+    margin: 8px;
+    vertical-align: middle;
+    text-align: start;
+   font-size: 16px;
+    padding: 7px;
+    border: 1px solid #00283D;
+    height: 100px;
+}
+#date, #time{
+    width:25%;
+    margin: 8px;
+    vertical-align: middle;
+    padding: 7px;
+    border: 1px solid #00283D;
+}
+#time{
+    font-size: 16px;
+}
+
+#guest{
+    width:12.5%;
+    margin: 8px;
+    vertical-align: middle;
+    text-align: start;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #00283D;
+}
+.lbl_1{
+    width:100%;
+    display: inline-block;
+    text-align: left;
+    padding-left:10px;
+}
+.field-5{
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: left;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#submit{
+    width:100px;
+    height: 50px;
+    background-color: #fcbf49;
+    color:#011b29;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-style: none;
+}
+h3{
+    font-family: 'Henny Penny', cursive;
+    font-size: 70px;
+    letter-spacing: 2px;
+    color: #d62829;
+    margin-bottom: 20px;
+}
+h3:hover{
+    color: #fff;
+    transition: all 2s;
+}
+#pastEvent{
+    text-align: center;
+} 
+#nextline{
+    display: block;
+}
+
+/*****GALLERY STYLING******/
+#flex-container{
+    display: flex;
+    flex-flow:wrap;
+    background-color:#d62829;
+}
+#flex-container .col-25{
+    background-color: #fff;
+    flex: 25%;  
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.image{
+    width: 100%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Roboto:wght@300;500&display=swap');
+/*
+font-family: 'Henny Penny', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+/***** ENTIRE PAGE *****/
+html {
+    box-sizing: border-box;
+}
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+/**** BODY *****/
+body{
+    margin: 0;
+    background-color: #011b29;
+}
+
+/***** PAGE CONTAINER *****/
+.page-container {
+    max-width: 1200px;
+    align-content: center;
+    margin: 0 auto;
+
+}
+
+/***** MAIN NAVIGATION *****/
+#header{
+    max-width:100%;
+}
+
+#main-menu {
+    float: right;
+}
+
+.hidden {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+}
+
+.menu li {
+    display:inline-block;
+    list-style-type: none;
+    margin-right: 2.12em;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.menu a,
+.menu a:link{
+    text-decoration: none;
+    color: #fcbf49;
+    /*dont know why this is not working*/
+    transition: all 2s;
+    
+}
+/*take white space off hover*/
+.menu a:hover{
+    color: white;
+}
+
+/*****TOP SKULLS AND LOGO*****/
+.logo-container{
+    display: block;
+    width: 45%;
+    margin: 0 0 0 0;
+
+}
+
+#logo-1{
+    position: absolute;
+    width: 220px;
+    padding-top: 0px;
+    padding-left: 20px;
+    transform: rotate(-20deg);
+
+}
+#brushstroke-1{
+    position: absolute;
+    top: 70px;
+    padding-left: 80px;
+}
+.site-logo{
+    position: relative;
+    width: 10em;
+    margin: 0 0 0 0;
+    top: 1.8em;
+    left: 4.3em;
+    font-family: 'Henny Penny', cursive;
+    color: white;
+    font-size: 3.2em;
+}
+.site-logo a,
+.site-logo a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.tag-line{
+    position: absolute;
+    margin: 0 0 0 0;
+    font-family: 'Henny Penny', cursive;
+    color: white;
+    font-size: 1.5em;
+    padding-top:2.8em;
+    left:40%;
+}
+
+#logo-2{
+    position: absolute;
+    width: 200px;
+    top: 17em;
+    transform:rotate(20deg);   
+}
+
+/*****FOOTER*****/
+
+.footer {
+    display:flex;
+    justify-content: space-between;
+    padding-top:2em;
+    padding-left: 10em;
+    padding-right:10em;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color:#075200;
+    margin-top:3em;;
+    height:150px;
+}
+
+.footer a,
+.footer a:link{
+    text-decoration: none;
+    color: #fcbf49;
+    /*dont know why this is not working*/
+    transition: all 2s;   
+}
+.footer a:hover{
+    color: white;
+    
+}
+
+    
+

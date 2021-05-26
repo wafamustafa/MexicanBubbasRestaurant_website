@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mexcian Bubbas</title>
+        <meta name="discription" content="resturant-project">
+        <meta name="viewport" content="width=device-width">
+        <!--this is the global style sheet for background color, nav bar and footer-->
+        <!--make sure your header and footer have the same class and id names-->
+        <link rel="stylesheet" type="text/css" href="css/global.css">
+        <!--link your stylesheet for your body below-->
+        <link rel="stylesheet" type="text/css" href="css/contactus.css">
+        <!--please make sure all your style sheets are all in the appropiate folders-->
+    </head>
+    <body>
+        <div class="page-container">
+            <header id="header">
+                <div id="main-menu">
+                    <nav>
+                        <h1 class="hidden"> Main Navigation</h1>
+                        <ul class="menu">
+                            <!--add other page links here-->
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="specials.html">Specials</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contest.html">Contest</a></li>
+                            <li><a href="EventBooking.html">Events & Booking</a></li>
+                        </ul>  
+                    </nav>
+                </div>
+                <div>
+                    <img src="images/brushstroke1.png" id="brushstroke-1" alt="red loose brush stroke">
+                    <img src="images/logos1.png" id="logo-1" alt="yellow and orange flower sugarskull with diamond eyes">
+                    <!--ADDED HOMEPAGE TAG BELOW-->
+                    <h2 class="site-logo"><a href="homepage.html">Mexican Bubbas</a></h2>
+                    <h2 class="tag-line">Chase the Flavor</h2>
+                    <img src="images/logo2.png" id="logo-2" alt="orange flower sugar skull with rose eyes "> 
+                </div>
+            </header>
+            <main class="main">
+                <h3>Contact Info</h3>
+                <div id="left-side">
+                    <p>&#9742; 905-274-5678</p>
+                    <p>&#9742; 905-287-5567</p>
+                    <p>&#9993; inquiry&#64;mexicanbubbs.com</p>
+                    <p>&#9993; contact&#64;mexicanbubbs.com</p>
+                    <p>visit us on social</p>
+                </div>
+                <form action="#" method="post" id="form-contact" name="form_contact">
+                    <p>
+                        <label for="customer-name">Name:</label>
+                        <input type="text" id="customer-name" name="customer_id" />
+                    </p>
+                    <p>
+                        <label for="customer-email">Email:</label>
+                        <input type="text" id="customer-email" name="customer_email"/>
+                    </p>
+                    <p>
+                        <label for="customer-postal">Postal Code:</label>
+                        <input type="text" id="customer-postal" name="customer_postal"/>
+                    </p>
+                    <p>
+                        <label for="customer-comment">Comment:</label>
+                        <input type="text" id="customer-comment" name="customer_comment"/>
+                    </p>
+                    <p id="sub-btn">
+                        <input type="submit" value="Submit Form" id="submit-button" name="submit_button" onsubmit="process_form()"/>
+                    </p> 
+                    <div id="customer_msg">
+                        <h2>Thank you <span id="thanks-customer"></span> for your inquiry!</h2>
+                        <p>We will get back to you shortly </p>
+                    </div>
+                </form>
+            </main>
+            <footer class="footer">
+                <h4 class="hidden">Footer navigation</h4>
+                <a href="locations.html">Location</a>
+                <a href="Careers.html">Careers</a>
+                <a href="contactus.html">Contact us</a>
+                <a href="sitemap.html">Site Map</a>
+            </footer>
+        </div>
+    </body>
+    <script type="text/javascript" src="js/contactus.js"></script>
+</html>

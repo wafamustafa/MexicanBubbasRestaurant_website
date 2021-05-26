@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+        <title> Menu </title>
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+    </head>
+    <body>
+        <div class="page-container">
+            <header id="header">
+                <div id="main-menu">
+                    <nav>
+                        <h1 class="hidden"> Main Navigation</h1>
+                        <ul class="menu">
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="specials.html">Specials</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contest.html">Contest</a></li>
+                            <li><a href="EventBooking.html">Events & Booking</a></li>
+                        </ul>  
+                    </nav>
+                </div>
+                <div>
+                    <img src="images/brushstroke1.png" id="brushstroke-1" alt="red loose brush stroke">
+                    <img src="images/logos1.png" id="logo-1" alt="yellow and orange flower sugarskull with diamond eyes">
+                    <!--PLEASE LIKE THE HOMEPAGE BELOW-->
+                    <h2 class="site-logo"><a href="homepage.html">Mexican Bubbas</a></h2>
+                    <h2 class="tag-line">Chase the Flavor</h2>
+                    <img src="images/logo2.png" id="logo-2" alt="orange flower sugar skull with rose eyes "> 
+                </div>
+            </header>
+            <div>
+                <h2>Menu</h2>
+           </div>
+           <div class="slideshow-container">
+                <div class="pictures-fade">
+                    <div class="numbers">1 / 3</div>
+                    <img src="images/corn.jpg" width= 300px height=450px alt="Mexican street corn">
+                    <div class="text">Mexican Street Corn</div>
+                </div>
+                <div class="pictures-fade">
+                    <div class="numbers">2 / 3</div>
+                    <img src="images/barbacoa.jpg" width= 300px height=450px alt="Beef Barbacoa">
+                    <div class="text">Barbacoa Beef</div>
+                </div>
+                    <div class="pictures-fade">
+                        <div class="numbers">3 / 3</div>
+                        <img src="images/cake.jpg" width=300px height=450px alt="Tres Leches Cake">
+                        <div class="text">Tres Leches Cake</div>
+                    </div>
+                    <a id="back">&#10094;</a>
+                    <a id="next">&#10095;</a>
+            </div>
+            <br>
+            <div id="dots">
+                <!-- I tried to change the onclick from the html to the js file, nothing I tried would work -->
+                <span class="dots" onclick="currentSlide(1)"></span>
+                <span class="dots" onclick="currentSlide(2)"></span>
+                <span class="dots" onclick="currentSlide(3)"></span>
+             </div> 
+             <div id="maincontent">
+            <section>
+                <h3>Appetizers</h3>
+            <ul class="menuchoices">
+                <li>Guacamole and Chips</li>
+                <p>A fresh and citrus forward guacamole served with house made crispy tortilla chips seasoned with smoked paprika.</p>
+                <li>Tuna Ceviche</li>
+                <p>Raw, citrus marinated tuna with avocado, tomato, red onion and topped with cilantro. Served with our house made tortilla chips.</p>
+                <li>Full Stack Nachos</li>
+                <p>Our house made nachos topped with a blend of melted cheeses, chorizo, lime crema, pico de gallo and guacamole. Serves 2 to 4 people.</p>
+                <li>Picante Chicken Wings</li>
+                <p>Crispy chicken wings coated in chipotle and adobo spices topped with cojita cheese and lime crema.</p>
+                <li>Mexican Street Corn</li>
+                <p>Grilled corn on the cob coated in a lime crema with cojita cheese and topped with a blend of spices.</p>
+            </ul>
+        </section>
+        <section>
+            <h3>Entrees</h3>
+            <ul class="menuchoices">
+                <li>Trio of Tacos</li>
+                <p>Mix and match your tacos:</p>
+                <p>Al Pastor, Vegetarían Cojita Cheese, Fried Cod, Chorizo, Carnita.</p>
+                <li>Chimichanga</li>
+                <p>Carnita meat covered with a blend of melted cheeses, wrapped in a tortilla and deep fried. Topped with lime crema and pico de gallo.</p>
+                <li>Fajitas</li>
+                <p>Served in a sizzling cast iron skillet with your choice of beef, chicken or vegetarían. Served with tortillas, roasted peppers, onions, guacamole, cojita cheese and pico de gallo.</p>
+                <li>Enchiladas</li>
+                <p>Carnita meat baked in three tortillas with a blend of melted cheeses and smothered in salsa and topped with cojita cheese.</p>
+                <li>Beef Barbacoa</li>
+                <p>Braised and slow cooked beef in a chipotle adobe lime sauce served with tortillas, pico de gallo, salsa verde, guacamole, lime, cojita cheese and pickled cabbage. Choose your size:</p>
+                <p>0.5 lb, 1 lb, 2 lb, 5 lb.</p>
+            </ul>
+        </section>
+        <section class="othermenuchoices">
+            <h3>Sides</h3>
+            <ul>
+                <li>Mexican Rice</li>
+                <li>Fries</li>
+                <li>Garden Salad</li>
+                <li>Chicken Tortilla Soup</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Dessert</h3>
+            <ul class="menuchoices">
+                <li>Churros</li>
+                <p>Crispy churros covered in cinnamon sugar and served with spiced melted chocolate and dulce de leche.</p>
+                <li>Dulce de Leche Flan</li>
+                <p>Silky smooth flan smothered in dulce de leche.</p>
+                <li>Tres Leches Cake</li>
+                <p>Light and spongy cake doused in a vanilla milk marinade and topped with an airy vanilla caramel frosting.</p>
+            </ul>
+        </section>
+        <section class="othermenuchoices">
+            <h3>Drinks</h3>
+            <h4>White Wine</h4>
+            <ul>
+                <li>Stag's Leap Chardonnay</li>
+                <li>Cave Spring Dolomite Riesling</li>
+                <li>Anne de Laweiss Collection Pinot Gris 2017</li>
+            </ul>
+            <h4>Sparkling</h4>
+            <ul>
+                <li>Segura Viudas Brut Reserva Cava</li>
+            </ul>
+            <h4>Red Wine</h4>
+            <ul>
+                <li>Stoneleigh Marlborough Pinot Noir</li>
+                <li>Ravenswood Vintners Blend Old Vine Zinfandel</li>
+                <li>J. Lohr Los Osos Merlot</li>
+            </ul>
+            <h4>Beer</h4>
+            <ul>
+                <li>Mill Street Organic</li>
+                <li>Beau's Lug Tread</li>
+                <li>Canadian</li>
+                <li>Coors Light</li>
+                <li>Stella</li>
+                <li>Corona</li>
+                <li>Rickard's Red</li>
+                <li>Belgian Moon</li>
+                <li>Guiness</li>
+            </ul>
+            <h4>Cocktails</h4>
+            <ul>
+                <li>Margaita</li>
+                <li>Paloma</li>
+                <li>Daquiri</li>
+                <li>Long Island Iced Tea</li>
+                <li>Whiskey Sour</li>
+                <li>Martini</li>
+                <li>Mojito</li>
+            </ul>
+            <h4>Non-Alcoholic</h4>
+            <ul>
+                <li>Evian</li>
+                <li>San Pellegrino</li>
+                <li>Jarritos Cola: Mexican Cola, Pineapple, Lime, Mandarin</li>
+                <li>Virgin Mojito</li>
+                <li>Virgin Margarita</li>
+            </ul>
+        </section>
+        </div>
+        <footer class="footer">
+            <h4 class="hidden">Footer navigation</h4>
+            <a href="locations.html">Location</a>
+            <a href="Careers.html">Careers</a>
+            <a href="contactus.html">Contact us</a>
+            <a href="#">Site Map</a>
+        </footer>
+        </div>
+        <script src="js/menu.js"></script>
+    </body>
+</html>

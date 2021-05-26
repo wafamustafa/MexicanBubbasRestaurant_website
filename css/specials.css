@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Roboto:wght@300;500&display=swap');
+/*
+font-family: 'Henny Penny', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    margin-top: 8em;
+    width: 1200px;
+}
+.main h3{
+    font-family: 'Henny Penny', cursive;
+    font-size: 70px;
+    letter-spacing: 2px;
+    color: #d62829;
+    margin-left: 3em;
+    margin-bottom: 20px;
+   
+       
+}
+.main h3:hover{
+    color:white;
+    transition: all 2s;
+}
+
+
+/*****MONDAY*****/
+#monday-special{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    margin-left: 7em;
+    border-radius: 1em;
+    border: 4px solid white;
+    background-color:  #011b29;
+    width:700px;
+    height: 350px;
+}
+#monday-special h4{
+    color: #fcbf49;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom:2px; 
+}
+#monday-special div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 2px solid #fcbf49;
+    background-color: #fcbf49;
+    width: 610px;
+    height: 250px;  
+}
+#monday-special h5{
+    font-family: 'Henny Penny', cursive;
+    font-size:45px;
+    color: #d62829;
+    width: 300px;
+    transform: rotate(-10deg);
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+#monday-special p{
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size:25px;
+    color:#d62829;
+    margin-bottom: 0;
+}
+#monday-special img{
+    align-self:flex-end;
+    width:300px;  
+}
+
+/******TUESDAY-FLIPPED*****/
+#tuesday-special{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
+    margin-left: 27em;
+    border-radius: 1em;
+    border: 4px solid white;
+    background-color:  #011b29;
+    width:700px;
+    height: 350px;
+}
+#tuesday-special h4{
+    color: #fcbf49;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom:2px; 
+}
+#tuesday-special div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 2px solid #fcbf49;
+    background-color: #fcbf49;
+    width: 610px;
+    height: 250px;  
+}
+#tuesday-special h5{
+    font-family: 'Henny Penny', cursive;
+    font-size:45px;
+    color: #d62829;
+    width: 300px;
+    transform: rotate(10deg);
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+#tuesday-special p{
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size:25px;
+    color:#d62829;
+    margin-bottom: 0;
+}
+#tuesday-special img{
+    align-self:flex-start;
+    width:300px;  
+}
+
+/******WEDNESDAY*****/
+#wednesday-special{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    margin-left: 7em;
+    border-radius: 1em;
+    border: 4px solid white;
+    background-color:  #011b29;
+    width:700px;
+    height: 350px;
+}
+#wednesday-special h4{
+    color: #fcbf49;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom:2px; 
+}
+#wednesday-special div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 2px solid #fcbf49;
+    background-color: #fcbf49;
+    width: 610px;
+    height: 250px;  
+}
+#wednesday-special h5{
+    font-family: 'Henny Penny', cursive;
+    font-size:45px;
+    color: #d62829;
+    width: 300px;
+    transform: rotate(-10deg);
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+#wednesday-special p{
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size:25px;
+    color:#d62829;
+    margin-bottom: 0;
+}
+#wednesday-special img{
+    align-self:flex-end;
+    width:300px;  
+}
+
+/*****THURSDAY-FLIPPED*****/
+#thursday-special{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
+    margin-left: 27em;
+    border-radius: 1em;
+    border: 4px solid white;
+    background-color:  #011b29;
+    width:700px;
+    height: 350px;
+}
+#thursday-special h4{
+    color: #fcbf49;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom:2px; 
+}
+#thursday-special div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 2px solid #fcbf49;
+    background-color: #fcbf49;;
+    width: 610px;
+    height: 250px;  
+}
+#thursday-special h5{
+    font-family: 'Henny Penny', cursive;
+    font-size:45px;
+    color: #d62829;
+    width: 300px;
+    transform: rotate(10deg);
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+#thursday-special p{
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size:25px;
+    color:#d62829;
+    margin-bottom: 0;
+}
+#thursday-special img{
+    align-self:flex-start;
+    width:300px;  
+}
+
+
+/******FRIDAY*****/
+#friday-special{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    margin-left: 7em;
+    border-radius: 1em;
+    border: 4px solid white;
+    background-color:  #011b29;
+    width:700px;
+    height: 350px;
+}
+#friday-special h4{
+    color: #fcbf49;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom:2px; 
+}
+#friday-special div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 2px solid #fcbf49;
+    background-color: #fcbf49;
+    width: 610px;
+    height: 250px;  
+}
+#friday-special h5{
+    font-family: 'Henny Penny', cursive;
+    font-size:45px;
+    color: #d62829;
+    width: 300px;
+    transform: rotate(-10deg);
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+#friday-special p{
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size:25px;
+    color:#d62829;
+    margin-bottom: 0;
+}
+#friday-special img{
+    align-self:flex-end;
+    width:300px;  
+}
+
+    

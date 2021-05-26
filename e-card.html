@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mexcian Bubbas</title>
+        <meta name="discription" content="resturant-project">
+        <meta name="viewport" content="width=device-width">
+        <!--this is the global style sheet for background color, nav bar and footer-->
+        <!--make sure your header and footer have the same class and id names-->
+        <link rel="stylesheet" type="text/css" href="css/e-card.css"> 
+        <script src="js/giftcards.js"></script>
+        <!--link your stylesheet for your body below-->
+        <!--please make sure all your style sheets are all in the appropiate folders-->
+    </head>
+    <body>
+        <div class="page-container">
+            <header id="header">
+                <div id="main-menu">
+                    <nav>
+                        <h1 class="hidden"> Main Navigation</h1>
+                        <ul class="menu">
+                            <!--add other page links here-->
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="specials.html">Specials</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contest.html">Contest</a></li>
+                            <li><a href="EventBooking.html">Events &amp; Booking</a></li>
+                        </ul>  
+                    </nav>
+                </div>
+                
+                
+                <div>
+                    <img src="images/brushstroke1.png" id="brushstroke-1" alt="red loose brush stroke">
+                    <img src="images/logos1.png" id="logo-1" alt="yellow and orange flower sugarskull with diamond eyes">
+                    <h2 class="site-logo"><a href="homepage.html">Mexican Bubbas</a></h2>
+                    <h2 class="tag-line">Chase the Flavor</h2>
+                    <img src="images/logo2.png" id="logo-2" alt="orange flower sugar skull with rose eyes "> 
+                </div>
+            </header>
+            
+            <!--form to send e-card-->
+            <div id="giftcard">
+                <h2>Who is the gift card for?</h2>
+                <form method="post" id="form" name="booking_form">
+                    <div class="field">
+                        <label for="email"  class="lbl">Receiver Email Address</label>
+                    </div><div>
+                        <input type="email" id="receiver" class="email" >
+                    </div>
+                    <div class="field">
+                        <label for="email"  class="lbl">Sender Email Address</label>
+                        </div><div>
+                        <input type="email" id="sender" class="email">
+                    </div>
+                    <div class="field-5">
+                        </div><div>
+                        <input type="submit" id="submit" value="SEND">
+                    </div>
+                </form>
+                <div id="hidden">Thank you for your purchase!</div>
+            </div>
+            
+            
+            
+            <!-- Footer -->
+            <footer class="footer">
+                <h4 class="hidden">Footer navigation</h4>
+                <a href="locations.html">Location</a>
+                <a href="Careers.html">Careers</a>
+                <a href="contactus.html">Contact us</a>
+                <a href="sitemap.html">Site Map</a>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Henny+Penny');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* Fonts */
+#main h2 {
+  font-family: "Henny Penny";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 2;
+  text-align: center;
+  color: #ffbf49;
+}
+#main h3 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #d62828;
+}
+#main p {
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 1;
+  font-size: 20px;
+  color: #fff;
+}
+#main a {
+  color: #f77f00;
+}
+#main a:hover {
+  color: #fcbf49;
+  text-decoration: none;
+}
+
+/* General spacing and elements locations */
+#main {
+  padding: 0 2%;
+  margin-top: 12em;
+  margin-left: 23em;
+}
+.location-1, .location-2, .location-3 {
+  text-align: center;
+  margin: 0 2%;
+}
+iframe {
+  border: 2px #075200 solid;
+}
